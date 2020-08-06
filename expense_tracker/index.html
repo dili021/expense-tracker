@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trošak</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h2>Stanje Računa</h2>
+    <div class="container">
+      <div class="header">
+        <h4>Stanje Računa:</h4>
+        <h1 id="balance">0</h1>
+      </div>
+      <div class="inc-exp-container">
+        <div>
+          <h4>Primanja</h4>
+          <p id="money-plus" class="money plus">+0 rsd</p>
+        </div>
+        <div>
+          <h4>Troškovi</h4>
+          <p id="money-minus" class="money minus">-0 rsd</p>
+        </div>
+      </div>
+      <h3>Istorija</h3>
+      <ul id="list" class="list">
+        <!-- <li class="minus">
+          Cash <span>-400 rsd</span><button class="delete-btn">X</button>
+        </li> -->
+      </ul>
+      <h3>Dodaj novu transakciju</h3>
+      <form id="form">
+        <div class="form-control">
+          <label for="text"></label>
+          <input type="text" placeholder="Unesi naziv" id="text" />
+        </div>
+        <div class="form-control">
+          <label for="amount"> Napiši - ispred broja kada unosiš trošak</label>
+          <input type="number" placeholder="Unesi iznos" id="amount" />
+        </div>
+        <button type="submit" class="btn">Dodaj transakciju</button>
+      </form>
+      <button id="reset-btn" class="btn reset-btn">Ukloni sve</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
