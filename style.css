@@ -152,3 +152,9 @@ button:focus {
 .list li:hover .delete-btn {
   opacity: 1;
 }
+
+@media (max-width: 500px) {
+  .delete-btn {
+    left: 140px;
+  }
+}
