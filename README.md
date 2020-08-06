@@ -10,6 +10,9 @@ The app is currently only in Serbian, but since it's self explanatory it can alr
 - The app stores the data in local storage so it stays on your device until emptied, which is only done manualy. 
 - It shows your tracked balance, your summed income and expenses, as well as all the individual items.
 
+### Live link
+[visit](https://dili021.github.io/expense-tracker/)
+
 ### Built with
 - HTML
 - CSS
